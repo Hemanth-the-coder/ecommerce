@@ -1,0 +1,41 @@
+.banner_image{
+    
+   margin-top: 0px;
+ padding-bottom: 50px;
+ text-align: center;
+ color: #f8f8f8;
+ background: url(websiteimages/intro-bg_1.jpg) no-repeat center center;
+ background-size: cover;
+}
+.banner_content{
+    margin-top:12%;
+ margin-bottom:12%;
+    background-color: rgba(0,0,0,0.7);
+    max-width:660px;
+    padding-top:6%;
+    padding-bottom:6%;
+}
+footer{
+    background-color: black;
+    color:white;
+    padding-top:10px;
+    margin-bottom:0%;
+}
+.row-style{
+    margin-top:12%;
+}
+th{
+    background-color: #ececec;
+    
+}
+
+.signup_img{
+    background-image: url(websiteimages/sign.jpg);
+ background-repeat: no-repeat;
+background-size: cover;
+ 
+    
+       
+}
+         
+    
