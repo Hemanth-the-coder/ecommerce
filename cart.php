@@ -64,8 +64,8 @@ $total_price = 0;
                          <td><?php echo $rows['2'] ;?></td>
                           <td><?php echo $rows['3'] ;?></td>
                           <td><?php echo $rows['4'] ;?></td>
-                          <?php $id = $rows['0'];?>
-                          <td><?php echo '<a href="cart_delete_t.php?id=$id" class="btn btn-warning">Remove</a>'?></td>
+                          <?php $id1 = $rows['0'];?>
+                          <td><?php echo "<a href='cart_delete_t.php?id={$id1}' class='btn btn-warning'>Remove</a>"?></td>
                           <?php 
                     $total_price = $total_price+$rows['4']
                     ?>

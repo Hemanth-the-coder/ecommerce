@@ -28,7 +28,7 @@ include 'commom.php';
                         </div>
                         <div class="panel-body">
                             <p class="text-warning">
-                                Login to make purchase</p>
+                                Login to make purchase.</p>
                             <form method="POST" action="login_values.php">
                                 <div class="form-group">
                                     Email:<input type="email" class="form-control" name="email" required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" > 

@@ -61,9 +61,6 @@ btn-success">Add to cart</a>
  }
  }
  ?>
-
-
-
                             </center>
                                   
                         </div>
