@@ -451,10 +451,10 @@ Now</a></p>
 
  echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
 cart</a>';
- echo '<a href="cart_delete.php?id=11" class="btn btn-warning">Remove</a>';
+ echo '<a href="cart_delete.php?id=13" class="btn btn-warning">Remove</a>';
  } else {
  ?>
-<a href="cart_insert.php?id=11" name="add" value="add" class="btn btn-block
+<a href="cart_insert.php?id=13" name="add" value="add" class="btn btn-block
 btn-success">Add to cart</a>
  <?php
  }

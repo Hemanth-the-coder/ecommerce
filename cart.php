@@ -56,7 +56,7 @@ $total_price = 0;
                         <th>Category</th>
                         <th>Status</th>
                         <th>Price</th>
-                        <th>Make Changes</th>
+                        <th>Cancel Order</th>
                     </tr>
                     <?php while($rows= mysqli_fetch_array($cart_result)) {?>
                     <tr> 
@@ -72,19 +72,30 @@ $total_price = 0;
 
 
                     
-                        <td>The final amount : <?php echo $total_price ?> </td>
-                    
-                         
-                    </tr>
+
+
+</tr>
+<?php }?>
+<tr>
+
+    <td>The final amount : <?php echo $total_price ?>
+     </td> 
+</tr>
+
+
+
                  
 
 
-                    <?php }?>
                    
                 </tbody>
                 
             </table>
             
         </div>
+            
+    <a href="cart_insert.php?id=13" name="add" value="add" class="btn btn-md
+btn-success">Proceed</a>
+    
     </body>
 </html>

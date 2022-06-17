@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-inverse" style="margin-bottom: 0px;">
+<nav class="navbar navbar-inverse col" style="margin-bottom: 0px;">
     <div class="container">
         <div class="navbar-header">
             <a href="#" class="navbar-brand">Life Store</a>
