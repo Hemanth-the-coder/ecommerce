@@ -7,13 +7,14 @@ include 'commom.php';
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" type="text/css" href="websitedesigner.css">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      
        
     </head>
       
-    <body>
+    <body h-100>
         <?php
         include 'header.php';
         ?>
@@ -22,7 +23,14 @@ include 'commom.php';
                 <center>
                 <div class="banner_content">
                     <h1> We sell LifeStore</h1>
-                    <a href="login.php"><button type="button" class="btn btn-danger btn-lg">Shop Now</button></a>
+                    <?php
+                       if(!isset($_SESSION['id'])){
+                        ?>
+                           <a href="login.php"><button type="button" class="btn btn-danger btn-lg">Shop Now</button></a>
+                    <?php
+                       } else {?>
+                        <a href="product.php"><button type="button" class="btn btn-danger btn-lg">Shop Now</button></a>
+                        <?php } ?>
             
         </div>
                 </center>
@@ -33,10 +41,6 @@ include 'commom.php';
                 <p>Copyright © Lifestyle Store. All Rights
 Reserved” and “Contact Us: +91 90000 00000</p>
                 </center>
-            </footer>
-            
-        
-        
-        
+            </footer>    
     </body>
 </html>

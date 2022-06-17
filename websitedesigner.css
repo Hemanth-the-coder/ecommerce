@@ -6,6 +6,7 @@
  color: #f8f8f8;
  background: url(websiteimages/intro-bg_1.jpg) no-repeat center center;
  background-size: cover;
+ height:600px;
 }
 .banner_content{
     margin-top:12%;
@@ -14,6 +15,7 @@
     max-width:660px;
     padding-top:6%;
     padding-bottom:6%;
+    /* height:100%; */
 }
 footer{
     background-color: black;
@@ -32,10 +34,25 @@ th{
 .signup_img{
     background-image: url(websiteimages/sign.jpg);
  background-repeat: no-repeat;
-background-size: cover;
- 
-    
-       
+background-size: cover;   
 }
-         
     
+.bottom{
+    margin-bottom: -10px;
+    width:100%;
+}
+
+.thumbnail{
+    height: 370px;
+    height:fit-content;
+    padding-bottom: 50px;
+}
+
+.btn{
+    margin-bottom:-10px;
+}
+.thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+    height: 153px;
+}

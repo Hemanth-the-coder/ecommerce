@@ -4,10 +4,11 @@ require 'commom.php';
 
 
 $id=$_SESSION['id'];
-$cart_query="SELECT Name, category, Status FROM customers_products cp INNER JOIN items it ON cp.product_id=it.id WHERE customer_id='$id'";
+$cart_query="SELECT it.id , Name, category, Status ,Price FROM customers_products cp INNER JOIN items it ON cp.product_id=it.id WHERE customer_id='$id'";
 $cart_result= mysqli_query($con,$cart_query);
 $total_rows= mysqli_num_rows($cart_result);
-
+$total_price = 0;
+// $id = mysqli_fetch_array($cart_result)[0];
 
 ?>
 <html>
@@ -54,16 +55,30 @@ $total_rows= mysqli_num_rows($cart_result);
                         <th>Name</th>
                         <th>Category</th>
                         <th>Status</th>
-                        <th>Cancel</th>
+                        <th>Price</th>
+                        <th>Make Changes</th>
                     </tr>
                     <?php while($rows= mysqli_fetch_array($cart_result)) {?>
-                    <tr>
-                       
-                        <td><?php echo $rows['0'] ;?></td>
-                         <td><?php echo $rows['1'] ;?></td>
-                          <td><?php echo $rows['2'] ;?></td>
+                    <tr> 
+                        <td><?php echo $rows['1'] ;?></td>
+                         <td><?php echo $rows['2'] ;?></td>
+                          <td><?php echo $rows['3'] ;?></td>
+                          <td><?php echo $rows['4'] ;?></td>
+                          <?php $id = $rows['0'];?>
+                          <td><?php echo '<a href="cart_delete_t.php?id=$id" class="btn btn-warning">Remove</a>'?></td>
+                          <?php 
+                    $total_price = $total_price+$rows['4']
+                    ?>
+
+
+                    
+                        <td>The final amount : <?php echo $total_price ?> </td>
+                    
                          
                     </tr>
+                 
+
+
                     <?php }?>
                    
                 </tbody>
