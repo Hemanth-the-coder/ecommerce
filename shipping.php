@@ -17,6 +17,7 @@ $price= $_GET['price'];
         
    
     </head>
+    <body style='background-color:gray'>
     <?php
     $id = $_SESSION['id'];
     $check_query = "SELECT * FROM `shipping` WHERE cust_id='$id'";
@@ -25,7 +26,7 @@ $price= $_GET['price'];
     $rows = mysqli_fetch_assoc($check_result);
     $change = $_GET['change'];
     if($check_query_result!=0 and $change==0){?>
-            <div class="col-xs-6 extra">
+            <div class="col-xs-6 extra" style='color:black'>
                    <h1>The product will arrive at </h1>
                    <p>Address : <?php echo $rows['Address'];?></p>
                    <p>City : <?php echo $rows['City'];?></p>
@@ -91,5 +92,5 @@ btn-success'>Proceed to pay</a>"?>
                 
             </div>
             
-            
+    </body>   
 </html>

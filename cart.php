@@ -18,38 +18,18 @@ $total_price = 0;
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
-    <body style="background-color: peachpuff">
-      <nav>
-            <div class="navbar navbar-inverse navbar-fixed-top">
-                <div class="container">
-                <div class="navbar-header">
-                    
-                        <a href="#" class="navbar-brand">LifeStyle Store</a>
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
-                            <span class="icon-bar"></span>
-                             <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                        </button>
-                </div>
-                        <div class="navbar-collapse" id="mynavbar">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a href="product.php"><span class="glyphicon glyphicon-shopping-cart"> Back to shopping</span></a></li>
-                                <li><a href="update.php"><span class="glyphicon glyphicon-cog"> Setting</span></a></li>
-                                <li><a href="index.php"><span class="glyphicon glyphicon-log-out"> Logout</span></a></li>
-                            </ul>
-                        </div>
-                        
-                    </div>
-                </div>
-            
-        </nav>
+    <body style="background-color: grey">
+      <?php include "header.php" ?>
         <div class="container">
             <div class="jumbotron">
-                <h1>Your Orders </h1>
+                <center>
+
+                    <h1>Your Orders </h1>
+                </center>
             </div>
         </div>
         <div class="container">
-            <table class="table table-hover table-border">
+            <table class="table table-hover">
                 <tbody>
                     <tr>
                         <th>Name</th>
@@ -95,9 +75,9 @@ $total_price = 0;
 $_SESSION['price'] = $total_price;
  ?>
         </div>
-            
+            <center>
    <?php echo"<a href='shipping.php?change=0&price={$total_price}' class='btn btn-md
 btn-success'>Proceed</a>"?>
-    
+    </center>
     </body>
 </html>

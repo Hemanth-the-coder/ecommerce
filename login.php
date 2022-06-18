@@ -1,7 +1,8 @@
 <?php
 include 'commom.php';
 ?>
-
+<?php 
+include 'header.php'?>
 <html> 
     <head>
         <title>Login</title>
@@ -11,7 +12,7 @@ include 'commom.php';
     <link rel="stylesheet" type="text/css" href="websitedesigner.css">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body style="background-color: buttonface">
+    <body style="background-color: gray">
   
         <div class="jumbotron">
             <center>

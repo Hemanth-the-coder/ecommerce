@@ -1,7 +1,8 @@
 <?php 
 include 'commom.php';
 ?>
-
+<?php 
+include 'header.php'?>
 <html>
     <head>
         <title>Sign-up</title>
@@ -14,7 +15,7 @@ include 'commom.php';
    
     </head>
     
-    <body style="background-color: scrollbar">
+    <body style="background-color: gray">
     
      <div class="container">
             

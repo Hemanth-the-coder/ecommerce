@@ -22,14 +22,20 @@ and open the template in the editor.
         <?php
          include 'header.php';
   ?>
-        <div class="container" style="background-color: grey">
-            <div class="jumbotron" style="padding-bottom: 5px;padding-top: 5px;">
+        <div class="container-fluid" style="background-color: grey">
+            <div class="container" style="color:white; padding-bottom: 5px;padding-top: 5px;">
+            <center>
                 <h1>Welcome to our Lifestlye Store</h1>
                 <p>
                     We have the best cameras, watches and shirts for you. No need to hunt around, we
 have all in one place
                 </p>
+                </center>
             </div>
+
+            
+            <div>
+                <center><h2 style = 'color:black;'>BRAND NEW CAMERAS</h2></center></div>
             <div class="row">
                 <div class="col-md-3">
                     <div class="thumbnail">
@@ -50,8 +56,7 @@ Now</a></p>
 
  if (check_if_added(1)) { //This is same as if(check_if_added_to_cart !=
 
- echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
-cart</a>';
+
 
           echo '<a href="cart_delete.php?id=1" class="btn btn-warning padd">Remove</a>';
           echo '<a href="cart_insert.php?id=1" class="btn btn-success padd">addmore</a>';
@@ -84,8 +89,7 @@ Now</a></p>
 
  if (check_if_added(2)) { //This is same as if(check_if_added_to_cart !=
 
- echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
-cart</a>';
+
 echo '<a href="cart_delete.php?id=2" class="btn btn-warning padd">Remove</a>';
 echo '<a href="cart_insert.php?id=2" class="btn btn-success padd">addmore</a>';
  } else {
@@ -117,8 +121,7 @@ Now</a></p>
 
  if (check_if_added(3)) { //This is same as if(check_if_added_to_cart !=
 
- echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
-cart</a>';
+
 echo '<a href="cart_delete.php?id=3" class="btn btn-warning padd">Remove</a>';
 echo '<a href="cart_insert.php?id=3" class="btn btn-success padd">addmore</a>';
  } else {
@@ -151,8 +154,7 @@ Now</a></p>
 
  if (check_if_added(4)) { //This is same as if(check_if_added_to_cart !=
 
- echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
-cart</a>';
+
 echo '<a href="cart_delete.php?id=4" class="btn btn-warning padd">Remove</a>';
 echo '<a href="cart_insert.php?id=4" class="btn btn-success padd">addmore</a>';
 
@@ -172,6 +174,8 @@ btn-success">Add to cart</a>
                 
                 
             </div>
+            <div>
+                <center><h2 style = 'color:black;'>SHIRTS FOR MEN</h2></center></div>
               <div class="row">
                 <div class="col-md-3">
                     <div class="thumbnail">
@@ -190,8 +194,6 @@ Now</a></p>
 
  if (check_if_added(5)) { //This is same as if(check_if_added_to_cart !=
 
- echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
-cart</a>';
 echo '<a href="cart_delete.php?id=5" class="btn btn-warning padd">Remove</a>';
 echo '<a href="cart_insert.php?id=5" class="btn btn-success padd">addmore</a>';
  
@@ -224,8 +226,7 @@ Now</a></p>
 
  if (check_if_added(6)) { //This is same as if(check_if_added_to_cart !=
 
- echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
-cart</a>';
+
 echo '<a href="cart_delete.php?id=6" class="btn btn-warning padd">Remove</a>';
 echo '<a href="cart_insert.php?id=6" class="btn btn-success padd">addmore</a>';
 
@@ -258,8 +259,7 @@ Now</a></p>
 
  if (check_if_added(7)) { //This is same as if(check_if_added_to_cart !=
 
- echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
-cart</a>';
+
 echo '<a href="cart_delete.php?id=7" class="btn btn-warning padd">Remove</a>';
 echo '<a href="cart_insert.php?id=7" class="btn btn-success padd">addmore</a>';
  } else {
@@ -292,8 +292,7 @@ Now</a></p>
 
  if (check_if_added(8)) { //This is same as if(check_if_added_to_cart !=
 
- echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
-cart</a>';
+
 echo '<a href="cart_delete.php?id=8" class="btn btn-warning padd">Remove</a>';
 echo '<a href="cart_insert.php?id=8" class="btn btn-success padd">addmore</a>';
  } else {
@@ -312,6 +311,8 @@ btn-success">Add to cart</a>
                 
                 
             </div>
+            <div>
+                <center><h2 style = 'color:black;'>WATCHES FOR MEN</h2></center></div>
    <div class="row">
                 <div class="col-md-3">
                     <div class="thumbnail">
@@ -329,8 +330,6 @@ Now</a></p>
 
  if (check_if_added(9)) { //This is same as if(check_if_added_to_cart !=
 
- echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
-cart</a>';
 echo '<a href="cart_delete.php?id=9" class="btn btn-warning padd">Remove</a>';
 echo '<a href="cart_insert.php?id=9" class="btn btn-success padd">addmore</a>';
  } else {
@@ -362,8 +361,6 @@ Now</a></p>
 
  if (check_if_added(10)) { //This is same as if(check_if_added_to_cart !=
 
- echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
-cart</a>';
 echo '<a href="cart_delete.php?id=10" class="btn btn-warning padd">Remove</a>';
 echo '<a href="cart_insert.php?id=10" class="btn btn-success padd">addmore</a>';
  } else {
@@ -395,8 +392,6 @@ Now</a></p>
 
  if (check_if_added(11)) { //This is same as if(check_if_added_to_cart !=
 
- echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
-cart</a>';
 echo '<a href="cart_delete.php?id=11" class="btn btn-warning padd">Remove</a>';
 echo '<a href="cart_insert.php?id=11" class="btn btn-success padd">addmore</a>';
  } else {
@@ -429,8 +424,6 @@ Now</a></p>
 
  if (check_if_added(12)) { //This is same as if(check_if_added_to_cart !=
 
- echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
-cart</a>';
 echo '<a href="cart_delete.php?id=12" class="btn btn-warning padd">Remove</a>';
 echo '<a href="cart_insert.php?id=12" class="btn btn-success padd">addmore</a>';
  } else {
@@ -446,6 +439,10 @@ btn-success">Add to cart</a>
                         </div>
                     </div>
                 </div>
+                </div>
+                <div>
+                <center>
+                    <h2 style = 'color:black;'>BISCUITS</h2></center></div>
                 <div class="col-md-3">
                     <div class="thumbnail">
                         <img src="websiteimages/oreo.jpeg" alt="Watches" class="img-responsive">
@@ -460,10 +457,9 @@ Now</a></p>
  } else {
  //We have created a function to check whether this particular product is added
 
+
  if (check_if_added(13)) { //This is same as if(check_if_added_to_cart !=
 
- echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
-cart</a>';
 echo '<a href="cart_delete.php?id=13" class="btn btn-warning padd">Remove</a>';
 echo '<a href="cart_insert.php?id=13" class="btn btn-success padd">addmore</a>';
  } else {
@@ -497,8 +493,7 @@ Now</a></p>
 
  if (check_if_added(14)) { //This is same as if(check_if_added_to_cart !=
 
- echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
-cart</a>'; 
+ 
 echo '<a href="cart_delete.php?id=14" class="btn btn-warning padd">Remove</a>';
 echo '<a href="cart_insert.php?id=14" class="btn btn-success padd">addmore</a>';
  } else {
@@ -537,6 +532,177 @@ Now</a></p>
  } else {
  ?>
 <a href="cart_insert.php?id=15" name="add" value="add" class="btn btn-block
+btn-success">Add to cart</a>
+ <?php
+ }
+ }
+ ?> 
+ </center>
+                
+            </div>
+
+
+        </div>
+</div>
+<div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="websiteimages/jimjam.jpg" alt="Watches" class="img-responsive">
+                        <div class="caption">
+                            <center>
+                            <h2>Jim Jam</h2>
+                            <p><b>Price</b> Rs 50</p>
+                                    <?php if (!isset($_SESSION['id'])) { ?>
+ <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy
+Now</a></p>
+ <?php
+ } else {
+ //We have created a function to check whether this particular product is added
+
+ if (check_if_added(16)) { //This is same as if(check_if_added_to_cart !=
+
+    echo '<a href="cart_delete.php?id=15" class="btn btn-warning padd">Remove</a>';
+    echo '<a href="cart_insert.php?id=15" class="btn btn-success padd">addmore</a>';
+ } else {
+ ?>
+<a href="cart_insert.php?id=16" name="add" value="add" class="btn btn-block
+btn-success">Add to cart</a>
+ <?php
+ }
+ }
+ ?> 
+ </center>
+                
+            </div>
+
+
+        </div>
+</div>
+
+<div>
+                <center><h2 style ='color:black;'>EVERY HOSTELER'S FAVOURITES</h2></center>
+            </div>
+        <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="websiteimages/maggi.jpg" alt="Watches" class="img-responsive">
+                        <div class="caption">
+                            <center>
+                            <h2>Maggi</h2>
+                            <p><b>Price</b> Rs 20</p>
+                                    <?php if (!isset($_SESSION['id'])) { ?>
+ <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy
+Now</a></p>
+ <?php
+ } else {
+ //We have created a function to check whether this particular product is added
+
+ if (check_if_added(17)) { //This is same as if(check_if_added_to_cart !=
+
+    echo '<a href="cart_delete.php?id=17" class="btn btn-warning padd">Remove</a>';
+    echo '<a href="cart_insert.php?id=17" class="btn btn-success padd">addmore</a>';
+ } else {
+ ?>
+<a href="cart_insert.php?id=17" name="add" value="add" class="btn btn-block
+btn-success">Add to cart</a>
+ <?php
+ }
+ }
+ ?> 
+ </center>
+                
+            </div>
+
+
+        </div>
+</div>
+        <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="websiteimages/yipee.jpg" alt="Watches" class="img-responsive">
+                        <div class="caption">
+                            <center>
+                            <h2>Yippee</h2>
+                            <p><b>Price</b> Rs 20</p>
+                                    <?php if (!isset($_SESSION['id'])) { ?>
+ <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy
+Now</a></p>
+ <?php
+ } else {
+ //We have created a function to check whether this particular product is added
+
+ if (check_if_added(18)) { //This is same as if(check_if_added_to_cart !=
+
+    echo '<a href="cart_delete.php?id=18" class="btn btn-warning padd">Remove</a>';
+    echo '<a href="cart_insert.php?id=18" class="btn btn-success padd">addmore</a>';
+ } else {
+ ?>
+<a href="cart_insert.php?id=18" name="add" value="add" class="btn btn-block
+btn-success">Add to cart</a>
+ <?php
+ }
+ }
+ ?> 
+ </center>
+                
+            </div>
+
+
+        </div>
+</div>
+
+        <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="websiteimages/butter.jpg" alt="Watches" class="img-responsive">
+                        <div class="caption">
+                            <center>
+                            <h2>Peanut Butter</h2>
+                            <p><b>Price</b> Rs 499</p>
+                                    <?php if (!isset($_SESSION['id'])) { ?>
+ <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy
+Now</a></p>
+ <?php
+ } else {
+ //We have created a function to check whether this particular product is added
+
+ if (check_if_added(19)) { //This is same as if(check_if_added_to_cart !=
+
+    echo '<a href="cart_delete.php?id=19" class="btn btn-warning padd">Remove</a>';
+    echo '<a href="cart_insert.php?id=19" class="btn btn-success padd">addmore</a>';
+ } else {
+ ?>
+<a href="cart_insert.php?id=19" name="add" value="add" class="btn btn-block
+btn-success">Add to cart</a>
+ <?php
+ }
+ }
+ ?> 
+ </center>
+                
+            </div>
+
+
+        </div>
+</div>
+
+        <div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="websiteimages/top.jpg" alt="Watches" class="img-responsive">
+                        <div class="caption">
+                            <center>
+                            <h2>Top Ramen</h2>
+                            <p><b>Price</b> Rs 20</p>
+                                    <?php if (!isset($_SESSION['id'])) { ?>
+ <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy
+Now</a></p>
+ <?php
+ } else {
+ //We have created a function to check whether this particular product is added
+
+ if (check_if_added(20)) { //This is same as if(check_if_added_to_cart !=
+
+    echo '<a href="cart_delete.php?id=20" class="btn btn-warning padd">Remove</a>';
+    echo '<a href="cart_insert.php?id=20" class="btn btn-success padd">addmore</a>';
+ } else {
+ ?>
+<a href="cart_insert.php?id=20" name="add" value="add" class="btn btn-block
 btn-success">Add to cart</a>
  <?php
  }
