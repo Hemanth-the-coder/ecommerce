@@ -59,3 +59,14 @@ background-size: cover;
     margin-left: auto;
     height: 153px;
 }
+.padd{
+    margin-top: 12px;
+    margin-left: 2px;
+}
+.shippingimg{
+    height: 592px;
+}
+.extra{
+    color:dimgray;
+    font-size: larger;
+}

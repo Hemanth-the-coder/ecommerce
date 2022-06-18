@@ -94,8 +94,8 @@ $total_price = 0;
             
         </div>
             
-    <a href="cart_insert.php?id=13" name="add" value="add" class="btn btn-md
-btn-success">Proceed</a>
+   <?php echo"<a href='shipping.php?change=0&price={$total_price}' class='btn btn-md
+btn-success'>Proceed</a>"?>
     
     </body>
 </html>

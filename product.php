@@ -52,7 +52,9 @@ Now</a></p>
 
  echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
 cart</a>';
-          echo '<a href="cart_delete.php?id=1" class="btn btn-warning">Remove</a>';
+
+          echo '<a href="cart_delete.php?id=1" class="btn btn-warning padd">Remove</a>';
+          echo '<a href="cart_insert.php?id=1" class="btn btn-success padd">addmore</a>';
  } else {
  ?>
 <a method="GET" href="cart_insert.php?id=1" name="add" value="add" class="btn btn-block
@@ -84,7 +86,8 @@ Now</a></p>
 
  echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
 cart</a>';
-      echo '<a href="cart_delete.php?id=2" class="btn btn-warning">Remove</a>';
+echo '<a href="cart_delete.php?id=2" class="btn btn-warning padd">Remove</a>';
+echo '<a href="cart_insert.php?id=2" class="btn btn-success padd">addmore</a>';
  } else {
  ?>
 <a href="cart_insert.php?id=2" name="add" value="add" class="btn btn-block
@@ -116,7 +119,8 @@ Now</a></p>
 
  echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
 cart</a>';
- echo '<a href="cart_delete.php?id=3" class="btn btn-warning">Remove</a>';
+echo '<a href="cart_delete.php?id=3" class="btn btn-warning padd">Remove</a>';
+echo '<a href="cart_insert.php?id=3" class="btn btn-success padd">addmore</a>';
  } else {
  ?>
 <a  href="cart_insert.php?id=3" name="add" value="add" class="btn btn-block
@@ -149,7 +153,8 @@ Now</a></p>
 
  echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
 cart</a>';
-      echo '<a href="cart_delete.php?id=4" class="btn btn-warning">Remove</a>';
+echo '<a href="cart_delete.php?id=4" class="btn btn-warning padd">Remove</a>';
+echo '<a href="cart_insert.php?id=4" class="btn btn-success padd">addmore</a>';
 
  } else {
  ?>
@@ -187,7 +192,8 @@ Now</a></p>
 
  echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
 cart</a>';
-          echo '<a href="cart_delete.php?id=5" class="btn btn-warning">Remove</a>';
+echo '<a href="cart_delete.php?id=5" class="btn btn-warning padd">Remove</a>';
+echo '<a href="cart_insert.php?id=5" class="btn btn-success padd">addmore</a>';
  
  } else {
  ?>
@@ -220,7 +226,8 @@ Now</a></p>
 
  echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
 cart</a>';
-      echo '<a href="cart_delete.php?id=6" class="btn btn-warning">Remove</a>';
+echo '<a href="cart_delete.php?id=6" class="btn btn-warning padd">Remove</a>';
+echo '<a href="cart_insert.php?id=6" class="btn btn-success padd">addmore</a>';
 
  } else {
  ?>
@@ -253,7 +260,8 @@ Now</a></p>
 
  echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
 cart</a>';
- echo '<a href="cart_delete.php?id=7" class="btn btn-warning">Remove</a>';
+echo '<a href="cart_delete.php?id=7" class="btn btn-warning padd">Remove</a>';
+echo '<a href="cart_insert.php?id=7" class="btn btn-success padd">addmore</a>';
  } else {
  ?>
 <a href="cart_insert.php?id=7" name="add" value="add" class="btn btn-block
@@ -286,7 +294,8 @@ Now</a></p>
 
  echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
 cart</a>';
- echo '<a href="cart_delete.php?id=8" class="btn btn-warning">Remove</a>';
+echo '<a href="cart_delete.php?id=8" class="btn btn-warning padd">Remove</a>';
+echo '<a href="cart_insert.php?id=8" class="btn btn-success padd">addmore</a>';
  } else {
  ?>
 <a href="cart_insert.php?id=8" name="add" value="add" class="btn btn-block
@@ -322,7 +331,8 @@ Now</a></p>
 
  echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
 cart</a>';
- echo '<a href="cart_delete.php?id=9" class="btn btn-warning">Remove</a>';
+echo '<a href="cart_delete.php?id=9" class="btn btn-warning padd">Remove</a>';
+echo '<a href="cart_insert.php?id=9" class="btn btn-success padd">addmore</a>';
  } else {
  ?>
 <a href="cart_insert.php?id=9" name="add" value="add" class="btn btn-block
@@ -354,7 +364,8 @@ Now</a></p>
 
  echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
 cart</a>';
- echo '<a href="cart_delete.php?id=10" class="btn btn-warning">Remove</a>';
+echo '<a href="cart_delete.php?id=10" class="btn btn-warning padd">Remove</a>';
+echo '<a href="cart_insert.php?id=10" class="btn btn-success padd">addmore</a>';
  } else {
  ?>
 <a href="cart_insert.php?id=10" name="add" value="add" class="btn btn-block
@@ -386,7 +397,8 @@ Now</a></p>
 
  echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
 cart</a>';
- echo '<a href="cart_delete.php?id=11" class="btn btn-warning">Remove</a>';
+echo '<a href="cart_delete.php?id=11" class="btn btn-warning padd">Remove</a>';
+echo '<a href="cart_insert.php?id=11" class="btn btn-success padd">addmore</a>';
  } else {
  ?>
 <a href="cart_insert.php?id=11" name="add" value="add" class="btn btn-block
@@ -419,7 +431,8 @@ Now</a></p>
 
  echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
 cart</a>';
- echo '<a href="cart_delete.php?id=12" class="btn btn-warning">Remove</a>';
+echo '<a href="cart_delete.php?id=12" class="btn btn-warning padd">Remove</a>';
+echo '<a href="cart_insert.php?id=12" class="btn btn-success padd">addmore</a>';
  } else {
  ?>
 <a href="cart_insert.php?id=12" name="add" value="add" class="btn btn-block
@@ -451,10 +464,79 @@ Now</a></p>
 
  echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
 cart</a>';
- echo '<a href="cart_delete.php?id=13" class="btn btn-warning">Remove</a>';
+echo '<a href="cart_delete.php?id=13" class="btn btn-warning padd">Remove</a>';
+echo '<a href="cart_insert.php?id=13" class="btn btn-success padd">addmore</a>';
  } else {
  ?>
 <a href="cart_insert.php?id=13" name="add" value="add" class="btn btn-block
+btn-success">Add to cart</a>
+ <?php
+ }
+ }
+ ?> 
+ </center>
+                
+            </div>
+
+
+        </div>
+</div>
+<div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="websiteimages/hideandseek.jpg" alt="Watches" class="img-responsive">
+                        <div class="caption">
+                            <center>
+                            <h2>Hide And Seek</h2>
+                            <p><b>Price</b> Rs 55</p>
+                                    <?php if (!isset($_SESSION['id'])) { ?>
+ <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy
+Now</a></p>
+ <?php
+ } else {
+ //We have created a function to check whether this particular product is added
+
+ if (check_if_added(14)) { //This is same as if(check_if_added_to_cart !=
+
+ echo '<a href="#" class="btn btn-block btn-success" disabled>Added to
+cart</a>'; 
+echo '<a href="cart_delete.php?id=14" class="btn btn-warning padd">Remove</a>';
+echo '<a href="cart_insert.php?id=14" class="btn btn-success padd">addmore</a>';
+ } else {
+ ?>
+<a href="cart_insert.php?id=14" name="add" value="add" class="btn btn-block
+btn-success">Add to cart</a>
+ <?php
+ }
+ }
+ ?> 
+ </center>
+                
+            </div>
+
+
+        </div>
+</div>
+<div class="col-md-3">
+                    <div class="thumbnail">
+                        <img src="websiteimages/bourbon.jpg" alt="Watches" class="img-responsive">
+                        <div class="caption">
+                            <center>
+                            <h2>Bourbon</h2>
+                            <p><b>Price</b> Rs 50</p>
+                                    <?php if (!isset($_SESSION['id'])) { ?>
+ <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy
+Now</a></p>
+ <?php
+ } else {
+ //We have created a function to check whether this particular product is added
+
+ if (check_if_added(15)) { //This is same as if(check_if_added_to_cart !=
+
+    echo '<a href="cart_delete.php?id=15" class="btn btn-warning padd">Remove</a>';
+    echo '<a href="cart_insert.php?id=15" class="btn btn-success padd">addmore</a>';
+ } else {
+ ?>
+<a href="cart_insert.php?id=15" name="add" value="add" class="btn btn-block
 btn-success">Add to cart</a>
  <?php
  }
