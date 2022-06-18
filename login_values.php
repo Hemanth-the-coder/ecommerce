@@ -12,6 +12,8 @@ if($total_rows==0){
 else{
     $array=mysqli_fetch_array($login_select_result);
     $_SESSION['id']=$array['id'];
+    $_SESSION['name'] = $array['First_name'].''.$array['Last_name'];
+    $_SESSION['email']=$array['email'];
   header("location:product.php");
        
    

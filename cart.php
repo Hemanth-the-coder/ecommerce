@@ -91,7 +91,9 @@ $total_price = 0;
                 </tbody>
                 
             </table>
-            
+<?php
+$_SESSION['price'] = $total_price;
+ ?>
         </div>
             
    <?php echo"<a href='shipping.php?change=0&price={$total_price}' class='btn btn-md

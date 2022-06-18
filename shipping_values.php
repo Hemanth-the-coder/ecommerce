@@ -17,5 +17,4 @@ or die(mysqli_error($con));
 $_SESSION['price'] = $price;
 header("location:payment.php");
 
-
 ?>
